@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family= Open+Sans:wght@300 & display = swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open+Sans' , sans-serif;
+}
+header{
+    position: fixed;
+    background: #838383;
+    padding: 20px;
+    width: 100%;
+    height: 30xp4;
+}
+.left h3{
+    color: aliceblue;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 800;
+}
+.left span{
+    color: rgb(255, 255, 255);
+
+}
+.sair_btn{
+    padding: 5px;
+    background: #838383;
+    text-decoration: none;
+    float: right;
+    margin-top: -30px;
+    margin-right: 40px;
+    border-radius: 2pc;
+    font-size: 15px;
+    font-weight: 500;
+    color: aqua;
+    transition: 0.5s;
+    transition-property: background;
+}
+.sair_btn:hover{
+    background-color: brown;
+
+}
+.sidebar{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    margin-top: 70px;
+    padding-top: 30px;
+    left: 0;
+    background-color: rgb(39, 15, 61);
+
+}
+.siderbar .image{
+    width: 100px;
+    height: 100px;
+}
