@@ -10,7 +10,7 @@ header{
     background: #838383;
     padding: 20px;
     width: 100%;
-    height: 30xp4;
+    height: 30xp;
 }
 .left h3{
     color: aliceblue;
@@ -30,7 +30,7 @@ header{
     float: right;
     margin-top: -30px;
     margin-right: 40px;
-    border-radius: 2pc;
+    border-radius: 2px;
     font-size: 15px;
     font-weight: 500;
     color: aqua;
