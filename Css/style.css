@@ -54,4 +54,65 @@ header{
 .sidebar .image{
     width: 100px;
     height: 100px;
+    border-radius: 100px;
+}
+.sidebar h2{
+    color: chartreuse;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.sidebar a{
+    color: darkorange;
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    text-decoration: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transition-property: background ;
+}
+.sidebar a:hover{
+    background: #838383;
+}
+.sidebar ion-icon{
+    padding-right: 10px;
+}
+label #siderbar_btn{
+    z-index: 1;
+    position: fixed;
+    left: 300px;
+    color: darkturquoise;
+    font-size: 25px;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: 0.5s;
+    transition-property: color;
+}
+label #siderbar_btn:hover{
+    color: black;
+}
+#check:checked ~ .sidebar{
+    left: -190px;
+}
+#check:checked ~ .sidebar a span{
+    display: none;
+}
+#check:checked ~ .sidebar a{
+    font-size: 20px;
+    margin-left: 170px;
+    width: 80px;
+}
+.content{
+    background: url(/img/imagem_inicio.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    transition: 0.5s;
+}
+#check:checked ~ .content{
+    margin-left: 60px;
+}
+#check{
+    display: none;
 }
