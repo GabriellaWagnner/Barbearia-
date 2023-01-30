@@ -99,7 +99,7 @@ label #siderbar_btn:hover{
 }
 #check:checked ~ .sidebar a{
     font-size: 20px;
-    margin-left: 170px;
+    margin-left: 140px;
     width: 80px;
 }
 .content{
