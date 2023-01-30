@@ -5,15 +5,16 @@
     padding: 0;
     font-family: 'Open+Sans' , sans-serif;
 }
+
 header{
     position: fixed;
-    background: #838383;
+    background: #835757;
     padding: 20px;
     width: 100%;
     height: 30xp;
 }
 .left h3{
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     margin: 0;
     text-transform: uppercase;
     font-size: 22px;
@@ -25,7 +26,7 @@ header{
 }
 .sair_btn{
     padding: 5px;
-    background: #838383;
+    background: #705555;
     text-decoration: none;
     float: right;
     margin-top: -30px;
@@ -33,13 +34,12 @@ header{
     border-radius: 2px;
     font-size: 15px;
     font-weight: 500;
-    color: aqua;
+    color: rgb(0, 0, 0);
     transition: 0.5s;
     transition-property: background;
 }
 .sair_btn:hover{
     background-color: brown;
-
 }
 .sidebar{
     position: fixed;
@@ -48,8 +48,7 @@ header{
     margin-top: 70px;
     padding-top: 30px;
     left: 0;
-    background-color: rgb(39, 15, 61);
-
+    background-color: rgb(83, 65, 65);
 }
 .sidebar .image{
     width: 100px;
@@ -57,12 +56,12 @@ header{
     border-radius: 100px;
 }
 .sidebar h2{
-    color: chartreuse;
+    color: rgb(0, 0, 0);
     margin-top: 0;
     margin-bottom: 20px;
 }
 .sidebar a{
-    color: darkorange;
+    color: rgb(0, 0, 0);
     display: block;
     width: 100%;
     line-height: 60px;
@@ -73,7 +72,7 @@ header{
     transition-property: background ;
 }
 .sidebar a:hover{
-    background: #838383;
+    background: #000000;
 }
 .sidebar ion-icon{
     padding-right: 10px;
@@ -82,7 +81,7 @@ label #siderbar_btn{
     z-index: 1;
     position: fixed;
     left: 300px;
-    color: darkturquoise;
+    /*color: darkturquoise;*/
     font-size: 25px;
     margin: 5px 0;
     cursor: pointer;
@@ -104,7 +103,6 @@ label #siderbar_btn:hover{
     width: 80px;
 }
 .content{
-    background: url(/img/imagem_inicio.jpeg) no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
